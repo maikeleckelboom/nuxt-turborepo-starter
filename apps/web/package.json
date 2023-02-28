@@ -1,0 +1,19 @@
+{
+  "name": "@mannesmaikel/web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "nuxt": "3.1.1",
+    "@mannesmaikel/tsconfig": "workspace:*",
+    "@mannesmaikel/ui": "workspace:*"
+  }
+}
