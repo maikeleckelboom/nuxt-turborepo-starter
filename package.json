@@ -14,7 +14,7 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "@mannesmaikel/eslint-config-custom": "workspace:*",
+    "@mannesmaikel/config": "workspace:*",
     "turbo": "latest"
   },
   "engines": {
