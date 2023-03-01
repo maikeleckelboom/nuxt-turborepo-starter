@@ -1,4 +1,4 @@
-# Turborepo nuxt starter
+# Nuxt Turborepo
 
 [![CI/CD](https://github.com/gurvan-guss/turborepo-nuxt-boilerplate/actions/workflows/ci.yaml/badge.svg)](https://github.com/gurvan-guss/turborepo-nuxt-boilerplate/actions/workflows/ci.yaml)
 [![App](https://img.shields.io/badge/App-Preview-blue?logo=netlify&logoColor=white)](https://turborepo-nuxt-boilerplate-web-main.netlify.app/)
@@ -21,7 +21,6 @@ This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes th
 ### Apps and Packages
 
 - `web`: a [Nuxt.js](https://nuxtjs.org) app
-- `docs`: a [VitePress](https://vitepress.vuejs.org/) app
 - `ui`: a stub Nuxt component library with [Histoire](https://histoire.dev/)
 - `config`: `eslint` configuration (using [@antfu/eslint-config](https://github.com/antfu/eslint-config))
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
@@ -106,4 +105,3 @@ Learn more about the power of Turborepo:
 - [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
 - [Configuration Options](https://turborepo.org/docs/reference/configuration)
 - [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
-# nuxt-turborepo-starter
