@@ -106,7 +106,7 @@ jobs:
 
     environment:
       name: Web (main)
-      url: https://turborepo-nuxt-boilerplate-web-main.netlify.app/
+      url: https://nuxt-turborepo-starter-web.vercel.app/
 
     steps:
       - uses: actions/cache@v3
@@ -114,17 +114,7 @@ jobs:
           path: ${{ env.CACHE_PATHS_BUILD }}
           key: ${{ env.CACHE_KEY_BUILD }}
 
-# Doesn't work
-#      - uses: nwtgck/actions-netlify@v1.2
-#        with:
-#          publish-dir: ${{ env.PATH_BUILD_WEB }}
-#          functions-dir: ${{ env.PATH_BUILD_WEB_FUNCTIONS }}
-#          production-deploy: true
-#        env:
-#          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-#          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_UI_MAIN }}
-
-# Using netlify CLI https://github.com/nuxt/framework/issues/4439
+  # Using netlify CLI https://github.com/nuxt/framework/issues/4439
       - name: Deploy to Netlify using their CLI
         uses: netlify/actions/cli@master
         with:
@@ -141,7 +131,7 @@ jobs:
 
     environment:
       name: UI (main)
-      url: https://turborepo-nuxt-boilerplate-ui-main.netlify.app/
+      url: https://nuxt-turborepo-starter-web.vercel.app/
 
     steps:
       - uses: actions/cache@v3
