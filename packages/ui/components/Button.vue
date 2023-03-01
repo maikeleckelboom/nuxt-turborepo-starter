@@ -25,12 +25,12 @@ defineEmits<{
   transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
 
   &:hover {
-    background-color: hsl(0, 80%, 40%);
+    background-color: hsl(0, 20%, 40%);
     cursor: pointer;
   }
 
   &:active {
-    background-color: hsl(0, 80%, 30%);
+    background-color: hsl(0, 20%, 30%);
     cursor: pointer;
     box-shadow: 0 0 0 8px hsla(0, 80%, 50%, 0.2);
   }
