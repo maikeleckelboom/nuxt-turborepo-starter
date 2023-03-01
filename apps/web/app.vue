@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtMaterialButton />
+    De button: <NuxtMaterialButton />
   </div>
 </template>
